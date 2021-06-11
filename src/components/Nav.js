@@ -25,7 +25,7 @@ const Nav = () => {
 		<StyledNav variants={fadeIn} initial="hidden" animate="show">
 			<Logo onClick={clearSearch}>
 				<img src={logo} alt="logo" />
-				<h1>Ignite</h1>
+				<h1>React Gaming News</h1>
 			</Logo>
 			<form onSubmit={submitSearch} className="search">
 				<input value={textInput} onChange={inputHandler} type="text" />
